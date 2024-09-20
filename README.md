@@ -106,13 +106,13 @@ model.fit(X_train_scaled ,y_train_onehot, epochs=5,
           validation_data=(X_test_scaled,y_test_onehot))
 metrics = pd.DataFrame(model.history.history)
 
-print('Aakash P -212222110001')
+print('Dhiyaneshwar P -212222110009')
 metrics.head()
 
-print('Aakash P -212222110001')
+print('Dhiyaneshwar P -212222110009')
 metrics[['accuracy','val_accuracy']].plot()
 
-print('Aakash P -212222110001')
+print('Dhiyaneshwar P -212222110009')
 metrics[['loss','val_loss']].plot()
 x_test_predictions = np.argmax(model.predict(X_test_scaled), axis=1)
 
@@ -129,7 +129,7 @@ img_28_gray_scaled = img_28_gray.numpy()/255.0
 x_single_prediction = np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 
 print(x_single_prediction)
-print('Aakash P -212222110001')
+print('Dhiyaneshwar P -212222110009')
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 print(x_single_prediction)
 
@@ -141,7 +141,7 @@ img_28_gray_scaled = img_28_gray.numpy()/255.0
 
 x_single_prediction1 = np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 print(x_single_prediction1)
-print("Aakash P -212222110001")
+print("Dhiyaneshwar P -212222110009")
 
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 img_28_gray_inverted = 255.0-img_28_gray
