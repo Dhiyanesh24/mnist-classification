@@ -29,8 +29,8 @@ Finally, we pass handwritten digits to the model for prediction.
 
 ## PROGRAM
 
-### Name: Aakash P
-### Register Number: 212222110001
+### Name: Dhiyaneshwar
+### Register Number: 212222110009
 ```python
 import numpy as np
 from tensorflow import keras
